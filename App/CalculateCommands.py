@@ -1,7 +1,7 @@
 import crc16
 
 
-class ConvertCommand:
+class Command:
     def __init__(self, command):
         self.command = command
         self.hex_command = []

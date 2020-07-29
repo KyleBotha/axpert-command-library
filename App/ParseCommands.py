@@ -1,4 +1,4 @@
-class ParseResponse:
+class Parser:
     def __init__(self, response, command):
         self.response = response
         self.command = command
