@@ -1,7 +1,7 @@
 from SerialComms import Connection
 from CalculateCommands import ConvertCommand
 from ParseCommands import ParseResponse
-import codecs
+
 #command = [0x51, 0x50, 0x49, 0x47, 0x53, 0xB7, 0xA9, 0x0D]
 print("Please enter a command >> ")
 command = input()
