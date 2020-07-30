@@ -8,7 +8,7 @@
 
 ## Usage
 
-```
+```python
 from SerialComms import Connection
 from CalculateCommands import Command
 from ParseCommands import Parser
