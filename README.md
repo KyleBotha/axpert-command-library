@@ -14,7 +14,7 @@ from CalculateCommands import Command
 from ParseCommands import Parser
 
 #Ask user to enter a command to send to the Axpert Inverter
-command = input("Please enter a command >> ")
+command = input("Please enter a command >> ")      ### I think this only supports the "QPIGS" command if I remember correctly
 PORT = input("Please enter the Communication Port i.e. COM4 >> ")
 
 
